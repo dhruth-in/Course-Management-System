@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1;
+        }
+
+        h1 {
+            color: #2786e4;
+            margin-bottom: 40px;
+        }
+
+        .box {
+            display: inline-block;
+            width: 220px; /* Adjusted width */
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px; /* Reverted border radius */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+        }
+
+        .box img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px; /* Match border radius of box */
+            margin-bottom: 10px;
+        }
+
+        .box:hover {
+            background-color: #2786e4;
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .box h2 {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Course Management</h1>
+        <a href="{% url 'regaj' %}" class="box">
+            <img src="{% static 'images/enroll.jpg' %}" alt="Enroll">
+            <h2>Enroll</h2>
+        </a>
+
+        <a href="{% url 'add_project' %}" class="box">
+            <img src="{% static 'images/add_project.jpg' %}" alt="Add Project">
+            <h2>Add Project</h2>
+        </a>
+
+        <a href="{% url 'course_search_ajax' %}" class="box">
+            <img src="{% static 'images/course_search.jpg' %}" alt="Course Search">
+            <h2>Course Search</h2>
+        </a>
+        
+        <a href="{% url 'student_list' %}" class="box">
+            <img src="{% static 'images/student_list.jpg' %}" alt="Student List">
+            <h2>Student List</h2>
+        </a>
+    </div>
+</body>
+</html>
