@@ -80,6 +80,11 @@ To run this project locally, follow these steps:
 - `templates/`: HTML templates for the frontend.
 - `static/`: CSS, JavaScript, and other static files.
 
+##Images
+The Homepage
+![image](https://github.com/user-attachments/assets/25cbca89-e556-47c6-ae67-3ced503a3dbc)
+
+
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Ensure to follow the coding standards and include relevant tests.
