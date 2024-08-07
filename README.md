@@ -80,6 +80,27 @@ To run this project locally, follow these steps:
 - `templates/`: HTML templates for the frontend.
 - `static/`: CSS, JavaScript, and other static files.
 
+## Images
+
+- **The Homepage**
+  ![image](https://github.com/user-attachments/assets/00431144-1313-4812-a5df-a54fe6f226b2)
+
+- **Enroll in a Course**
+  ![image](https://github.com/user-attachments/assets/aedb6fc7-ff9a-47be-a5d5-2d6769180464)
+
+- **Add Project**
+  ![image](https://github.com/user-attachments/assets/ba5dd60f-73b4-41d9-8698-2f1ce94c82c7)
+
+- **Course Search**
+  ![image](https://github.com/user-attachments/assets/816d3606-6c30-4426-91fc-9702268bc6de)
+
+- **Student List**
+  ![image](https://github.com/user-attachments/assets/c9bb1fe5-78c4-4e2f-9bc3-330b80f31e7a)
+
+- **Student Details**
+  ![image](https://github.com/user-attachments/assets/4f77d812-3e21-47ed-9fac-4b259a23ec2b)
+
+
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Ensure to follow the coding standards and include relevant tests.
