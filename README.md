@@ -101,4 +101,4 @@ To run this project locally, follow these steps:
   ![image](https://github.com/user-attachments/assets/4f77d812-3e21-47ed-9fac-4b259a23ec2b)
 
 ## Author
-Dhruthi N – 4JN21CS193
+Dhruthi N
