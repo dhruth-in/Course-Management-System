@@ -101,7 +101,3 @@ To run this project locally, follow these steps:
   ![image](https://github.com/user-attachments/assets/4f77d812-3e21-47ed-9fac-4b259a23ec2b)
 
 
-## Contributing
-
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Ensure to follow the coding standards and include relevant tests.
-
